@@ -258,7 +258,7 @@ FBL.ns(function() { with(FBL) {
                     command :
                         bindFixed(Crossfire.CrossfireServer.startServer, Crossfire.CrossfireServer,
                             Firebug.getPref(Firebug.prefDomain, "crossfire.startHost"),
-                            Firebug.getPref(Firebug.prefDomain,"crossfire.startPort"))
+                            Firebug.getPref(Firebug.prefDomain, "crossfire.startPort"))
                 } ];
         },
         

@@ -54,7 +54,7 @@ FBL.ns(function() {
             if (startWithFF) {
                 Crossfire.CrossfireServer.startServer(
                         Firebug.getPref(Firebug.prefDomain, "crossfire.startHost"),
-                        Firebug.getPref(Firebug.prefDomain,"crossfire.startPort"));
+                        Firebug.getPref(Firebug.prefDomain, "crossfire.startPort"));
             }
         },
 
